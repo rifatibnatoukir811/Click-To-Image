@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.outer {
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.main img {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.main2 {
+    width: 90%;
+}
+
+.main i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #2c0c0c;
+    color: azure;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+    position: absolute;
+    right: -20px;
+    top: 20px;
+    cursor: pointer;
+
+}
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    gap: 10px;
+    cursor: pointer;
+    transition-duration: 0.05s;
+}
+button:hover{
+    background-color: chartreuse;
+    border-radius: 30px;
+}
